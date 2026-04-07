@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiger Hunt Game 🐯</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>🐯 Tiger Hunt Game</header>
+
+<!-- LOGIN -->
+<div id="login">
+  <h2>Login</h2>
+  <input type="text" id="username" placeholder="Enter name">
+  <br>
+  <button onclick="login()">Start Game</button>
+</div>
+
+<!-- GAME -->
+<div id="gameArea">
+  <h2 id="welcome"></h2>
+  <h3>Score: <span id="score">0</span></h3>
+  <h3>Time: <span id="time">30</span>s</h3>
+  <div id="tiger">🐯</div>
+</div>
+
+<!-- LEADERBOARD -->
+<div id="leaderboard">
+  <h2>🏆 Leaderboard</h2>
+  <ul id="scores"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
